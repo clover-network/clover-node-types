@@ -4,6 +4,7 @@
   "description": "clover-node-types Usage This repo contains Typescript bindings for custom clover-node modules.",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "cloverTypes": "ts-node ./clover-node-types.ts"
   },
