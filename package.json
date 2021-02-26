@@ -1,6 +1,6 @@
 {
   "name": "@clover-network/node-tpye",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "clover-node-types Usage This repo contains Typescript bindings for custom clover-node modules.",
   "main": "clover-node-types.js",
   "scripts": {
