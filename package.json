@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/clover-network/clover-node-types.git"
+    "url": "git+git@github.com:clover-network/clover-node-types.git"
   },
   "author": "",
   "license": "ISC",
