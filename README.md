@@ -1,3 +1,6 @@
+[![npm version](https://img.shields.io/npm/v/@clover-network/node-types.svg)](https://www.npmjs.com/package/eslint)
+[![MIT][license-badge]][license]
+
 # clover-node-types
 ## Usage
 This repo contains Javascript bindings for clover-node-type modules.
@@ -10,7 +13,7 @@ npm install @clover-network/node-types
 
 example:
 ```javascript
-const cloverTypes = require('@clover-network/node-types')
+const cloverTypes = require('@clover-network/node-types');
 const { ApiPromise, WsProvider } = require('@polkadot/api');
 
 async function connectToClover(){
@@ -20,7 +23,10 @@ async function connectToClover(){
         types: cloverTypes
      });
      var nonce = await api.rpc.system.accountNextIndex('5Gf3M6b4hy6D7QdGwaKGv1AteiuLzpPw4XVo9FmuHZbDG6qn');
-     console.log(nonce)
+     console.log(nonce);
 }
-connectToClover()
+connectToClover();
 ```
+
+[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
+[license]: https://github.com/clover-network/clover-node-types/blob/master/LICENSE
