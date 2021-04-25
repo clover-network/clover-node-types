@@ -1,37 +1,16 @@
 const cloverTypes = {
-  Amount: 'i128',
-  Keys: 'SessionKeys4',
-  AmountOf: 'Amount',
-  Balance: 'u128',
-  CurrencyId: {
-    _enum: ['CLV', 'CUSDT', 'DOT', 'CETH']
+  Amount: "i128",
+  Keys: "SessionKeys4",
+  AmountOf: "Amount",
+  Balance: "u128",
+  Rate: "FixedU128",
+  Ratio: "FixedU128",
+  EcdsaSignature: "[u8; 65]",
+  EvmAddress: "H160",
+  EthereumTxHash: "H256",
+  BridgeNetworks: {
+    _enum: ["BSC", "Ethereum"],
   },
-  CurrencyIdOf: 'CurrencyId',
-  CurrencyTypeEnum: {
-    _enum: ['CLV', 'CUSDT', 'DOT', 'CETH']
-  },
-  PairKey: 'u64',
-  Rate: 'FixedU128',
-  Ratio: 'FixedU128',
-  Price: 'FixedU128',
-  Share: 'u128',
-  OracleKey: 'CurrencyId',
-  CurrencyInfo: {
-    id: 'CurrencyId',
-    name: 'CurrencyTypeEnum'
-  },
-  ExchangeInfo: {
-    balance: 'Balance',
-    routes: 'Vec<CurrencyTypeEnum>'
-  },
-  PoolId: {
-    _enum: {
-      Swap: 'u64'
-    }
-  },
-  EcdsaSignature: '[u8; 65]',
-  EvmAddress: 'H160',
-  EthereumTxHash: 'H256'
-}
+};
 
 module.exports = cloverTypes;

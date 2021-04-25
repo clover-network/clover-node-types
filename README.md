@@ -5,12 +5,12 @@ This repo contains Javascript bindings for clover-node-type modules.
 In order to use the standard API against clover you must initialize the API's types object as follows:
 
 ```bash
-npm install @clover-network/node-type
+npm install @clover-network/node-types
 ```
 
 example:
 ```javascript
-const cloverTypes = require('@clover-network/node-type')
+const cloverTypes = require('@clover-network/node-types')
 const { ApiPromise, WsProvider } = require('@polkadot/api');
 
 async function connectToClover(){
