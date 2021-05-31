@@ -1,4 +1,10 @@
 const cloverTypes = {
+  AccountInfo: {
+    nonce: "Index",
+    consumers: "RefCount",
+    providers: "RefCount",
+    data: "AccountData",
+  },
   Amount: "i128",
   Keys: "SessionKeys4",
   AmountOf: "Amount",
