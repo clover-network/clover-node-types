@@ -1,6 +1,6 @@
 {
   "name": "@clover-network/node-types",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "clover-node-types Usage This repo contains Typescript bindings for custom clover-node modules.",
   "main": "clover-node-types.js",
   "scripts": {

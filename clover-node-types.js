@@ -15,7 +15,7 @@ const cloverTypes = {
   EvmAddress: "H160",
   EthereumTxHash: "H256",
   BridgeNetworks: {
-    _enum: ["BSC", "Ethereum"],
+    _enum: ["BSC", "Ethereum", "CloverPara"],
   },
 };
 
